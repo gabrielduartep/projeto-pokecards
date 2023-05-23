@@ -1,0 +1,176 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    max-width: 1280px;
+    margin: 0 auto;
+    color: #333333;
+    background-image: url(../imagens/modo-claro-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+body.modo-escuro {
+    background-image: url(../imagens/modo-escuro-bg.png);
+    color: #ffffff;
+}
+
+                                        /* <--Main-->*/
+
+main {
+    padding: 20px;
+    margin-top: 75px;
+}
+
+                                        /* <--Título-->*/
+
+main h1 {
+    text-align: center;
+    font-weight: 400;
+    color: #323099;
+    font-size: 50px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.modo-escuro h1 {
+    color: #79caf9;
+}
+
+                                        /* <--Listagem dos tipos-->*/
+
+main .listagem-tipos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: center;
+    transition: 0.1s ease-out;
+}
+
+                                        /* <--Cartão dos Tipos-->*/
+
+main .cartao-tipo {
+    background-color: #d8e3ec;
+    width: 280px;
+    height: 190px;
+    border-radius: 15px;
+    transition: 0.2s ease-in-out;
+    box-shadow: 0px 4px 4px #8d8d8d;
+    border: none;
+}
+
+#cartao-maior{
+    width: 290px;
+}
+
+main .cartao-tipo:hover {
+    background-color: #96d9d6;
+    transform: scale(1.05);
+    cursor: pointer;
+    box-shadow: 0px 2px 6px #8d8d8d;
+}
+
+.modo-escuro .cartao-tipo {
+    background-color: #303030;
+    box-shadow: 0px 4px 4px #1e1e1e;
+    border: none;
+}
+
+.modo-escuro .cartao-tipo:hover {
+    background-color: #000000;
+    box-shadow: 0px 4px 4px #000000;
+}
+
+                                        /* <--Nome dos Tipos-->*/
+main .cartao-tipo .contem-nome {
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+}
+
+main .cartao-tipo .contem-nome .nome-tipo {
+    border: 2px solid #393939;
+    border-radius: 12px;  
+}
+
+main .cartao-tipo .nome-tipo span {
+    padding: 15px;
+    text-transform: uppercase;
+    font-size: 17px;
+}
+
+.modo-escuro .cartao-tipo .contem-nome .nome-tipo {
+    border: 2px solid #f5f5f5f5;
+    border-radius: 15px;
+    color: #f5f5f5f5;
+} 
+
+                                        /* <-- Informações dos Tipos-->*/
+
+
+.informacoes-tipo{
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;  
+}
+
+/* .detalhe-img{
+    border: 2px solid #393939;
+    border-radius: 12px;  
+} */
+
+.tipo-supereficaz,
+.tipo-fraqueza {
+    padding-top: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: center;
+    gap: 4px;
+}
+
+/* .scroll-tipos {
+    max-height:100px;
+    overflow-y: scroll;
+    padding-right: 10px;
+} */
+
+                                        /* <-- Imagem Tipos-->*/
+
+.img-tipo {
+    padding-top: 10px;
+    width: 90px;
+    height: 90px;
+}
+
+.fraqueza-img,
+.supereficaz-img {
+    width: 30px;
+    height: 30px;
+}
+
+#img-fantasma {
+    width: 105px;
+    height: 105px;
+}
+
+#img-voador {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+#lutador-img{
+    padding-left: 10px;
+    width: 94px;
+    height: 94px;
+}
+
+#grama-img{
+    padding-left: 10px;
+}
+
+
+
+
+

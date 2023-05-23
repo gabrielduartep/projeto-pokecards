@@ -1,0 +1,8 @@
+https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/1.gif
+                                                                                                                   ⬆️
+
+https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/shiny/1.gif                                                                                                                                                                                                                                                                                              
+Mudar o numero da url para o número de registro do pokémon, disponivel do 1 até o 649.
+Versão shiny no link abaixo.
+
+
