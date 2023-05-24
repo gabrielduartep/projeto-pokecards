@@ -81,24 +81,25 @@ main .cartao-pokemon {
     gap: 15px;
     border-radius: 15px;
     transition: 0.2s ease-in-out;
-    box-shadow: 0px 3px 6px #4c1b56;
+    box-shadow: 0px 2px 6px #4c1b56;
 }
 
 main .cartao-pokemon:hover {
     background-color: #96d9d6;
     transform: scale(1.05);
     cursor: pointer;
-    box-shadow: 0px 2px 6px rgb(30, 30, 30);
+    box-shadow: 0px 3px 6px #4c1b56;
 }
 
 .modo-escuro .cartao-pokemon {
     background-color: #303030;
-    box-shadow: 0px 4px 4px rgb(30, 30, 30);
+    box-shadow: 0px 3px 6px #1e1e1e;
     border: none;
 }
 
 .modo-escuro .cartao-pokemon:hover {
     background-color: #000000;
+    box-shadow: 0px 3px 6px #000000;
 }
 
                                         /* <--Informções dos Pokémons-->*/
