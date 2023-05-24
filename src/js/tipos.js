@@ -18,19 +18,18 @@ botaoAlterarTema.addEventListener("click", () => {
 
 
 const barraDePesquisa = document.querySelector('.barra-de-pesquisa input');
-const cartao = document.querySelectorAll('.listagem-pokemon .cartao-pokemon');
+const cartao = document.querySelectorAll('.listagem-tipos .cartao-tipo');
 
 
 barraDePesquisa.addEventListener('input', function () {
     const termoPesquisa = barraDePesquisa.value.toLowerCase();
 
     cartao.forEach(cartao => {
-        const nomePokemon = cartao.querySelector('.informacoes span:first-child').textContent.toLowerCase();
-        if (nomePokemon.includes(termoPesquisa)) {
-            cartao.style.display = 'flex';
+        const nomeTipos = cartao.querySelector('.nome-tipo span:first-child').textContent.toLowerCase();
+        if (nomeTipos.includes(termoPesquisa)) {
+            cartao.style.display = 'block';
         } else {
             cartao.style.display = 'none';
         }
     });
 });
-
