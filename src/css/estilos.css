@@ -20,7 +20,7 @@ body.modo-escuro {
                                         /* <--Main-->*/
 
 main {
-    padding: 25px;
+    padding: 45px;
     margin-top: 75px;
 }
 
@@ -51,7 +51,7 @@ main .listagem-pokemon {
 
 .modo-escuro .barra-de-pesquisa input{ 
     background-color: #303030;
-    box-shadow: 0px 3px 3px rgb(30, 30, 30);
+    box-shadow: 0px 3px 3px #1e1e1e;
     color: #f5f5f5f5;  
 }
 

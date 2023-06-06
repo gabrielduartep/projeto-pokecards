@@ -1,0 +1,72 @@
+
+  .github-button {
+    position: fixed;
+    top: 100px;
+    right: 25px;
+    background-color: #fff;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+    box-shadow: 0px 2px 2px #6a6a6a;
+  }
+  .github-button a {
+    color: #333;
+    font-size: 24px;
+    text-decoration: none;
+  }
+
+  .modo-escuro .github-button {
+   
+    background-color: #333;
+    box-shadow: 0px 3px 4px #1e1e1e;
+  }
+
+  .modo-escuro .github-button a {
+    color: #fff;
+    font-size: 24px;
+    text-decoration: none;
+  }
+
+.linkedin-button {
+    position: fixed;
+    top: 158px;
+    right: 25px;
+    background-color: #0077B5;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .linkedin-button a {
+    color: #fff;
+    font-size: 24px;
+    text-decoration: none;
+  }
+
+  .modo-escuro .linkedin-button {
+   
+    background-color: #333;
+    box-shadow: 0px 3px 4px #1e1e1e;
+  }
+
+  .modo-escuro .linkedin-button a {
+    color: #fff;
+    font-size: 24px;
+    text-decoration: none;
+  }
+
+  .linkedin-button:hover,
+  .github-button:hover {
+    transform: scale(1.08);
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+}
