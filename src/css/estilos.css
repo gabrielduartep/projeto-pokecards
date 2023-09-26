@@ -145,12 +145,6 @@ main .cartao-pokemon .tipo {
     text-transform: capitalize;
 }
 
-main .cartao-pokemon .tipo:hover {
-    transform: scale(1.05);
-    transition: 0.2s ease-in-out;
-    cursor: pointer;
-}
-
 .modo-escuro .cartao-pokemon .tipo {
     box-shadow: 0px 4px 4px rgb(30, 30, 30);
 }
